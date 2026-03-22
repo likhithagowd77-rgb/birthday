@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #ffe4ec;
+  text-align: center;
+}
+
+/* Pages */
+.page {
+  display: none;
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.active {
+  display: block;
+}
+
+h1, h2 {
+  color: #ff4d6d;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 15px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Images */
+img {
+  width: 250px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+/* Video */
+video {
+  width: 300px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+/* Ending text */
+.ending {
+  font-size: 22px;
+  color: #ff4d6d;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* NO button */
+#noBtn {
+  position: absolute;
+}
+
+/* Rotating gallery */
+.circle-gallery {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: 40px auto;
+  animation: rotate 10s linear infinite;
+}
+
+.circle-gallery img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Positions */
+.circle-gallery img:nth-child(2) { top: 0; left: 50%; transform: translate(-50%,0);}
+.circle-gallery img:nth-child(3) { top: 50%; right: 0; transform: translate(0,-50%);}
+.circle-gallery img:nth-child(4) { bottom: 0; left: 50%; transform: translate(-50%,0);}
+.circle-gallery img:nth-child(5) { top: 50%; left: 0; transform: translate(0,-50%);}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+/* Center text */
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ff4d6d;
+  font-weight: bold;
+}
+
+/* Quote */
+.quote {
+  color: #ff4d6d;
+  font-style: italic;
+}
