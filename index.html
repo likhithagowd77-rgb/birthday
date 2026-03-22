@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page active" id="page1">
+  <h1>Will you be my Valentine? 💖</h1>
+  <button onclick="nextPage()">Yes 💕</button>
+  <button id="noBtn" onmouseover="moveNo()">No 😜</button>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page" id="page2">
+  <h1>Happy Birthday My Love 🎂❤️</h1>
+  <p>You are very special to me 💖</p>
+  <button onclick="nextPage()">Next ➡️</button>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="page3">
+  <h2>This is you 🌸</h2>
+
+  <div class="circle-gallery">
+    <div class="center-text">Happiest Born Day R 💗</div>
+
+    <img src="his1.jpg">
+    <img src="his2.jpg">
+    <img src="his3.jpg">
+    <img src="his4.jpg">
+  </div>
+
+  <p class="quote">You are my favorite person ❤️</p>
+
+  <button onclick="nextPage()">Next ➡️</button>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page" id="page4">
+  <h2>This is us 💑</h2>
+  <img src="together.jpg">
+  <p>With you, every moment is special 💕</p>
+  <button onclick="nextPage()">Next ➡️</button>
+</div>
+
+<!-- PAGE 5 -->
+<div class="page" id="page5">
+
+  <h2>Special Message 🎥</h2>
+
+  <video controls>
+    <source src="message.mp4" type="video/mp4">
+  </video>
+
+  <button onclick="playMusic()">Play Music 🎵</button>
+
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mp3">
+  </audio>
+
+  <p class="ending">💖 Greetings from yours, Likhi 💌</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
