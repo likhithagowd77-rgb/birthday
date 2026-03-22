@@ -1,0 +1,13 @@
+<div class="page" id="page3">
+  <h2>This is you 🌸</h2>
+
+  <div class="circle-gallery">
+    <div class="center-text">Happiest Born Day R 💗</div>
+
+    <img src="his1.jpg">
+    <img src="his2.jpg">
+    <img src="his3.jpg">
+    <img src="his4.jpg">
+  </div>
+
+  <p class="quote">You are my favorite person ❤️</p>
